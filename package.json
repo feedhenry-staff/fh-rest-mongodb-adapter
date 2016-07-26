@@ -1,7 +1,7 @@
 {
   "name": "fh-rest-mongodb-adapter",
-  "version": "0.1.0",
-  "description": "Adapter that simplifies exposing RESTful APIs for a MongoDB collection",
+  "version": "0.2.0",
+  "description": "MongoDB adapter for fh-rest-express-router",
   "main": "lib/adapter.js",
   "scripts": {
     "linelint": "linelint $(ls lib/*.js)",
@@ -31,6 +31,8 @@
     "env-var": "^1.0.0",
     "fh-bunyan": "^0.1.3",
     "is-object": "^1.0.1",
+    "joi": "^9.0.1",
+    "linelint": "^1.0.1",
     "lodash.map": "^4.4.0",
     "mongo-utils": "git+https://github.com/evanshortiss/mongo-utils.git#0.2.0",
     "verror": "^1.6.1"
