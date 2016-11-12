@@ -53,7 +53,3 @@ payloads.list({
   }
 }, function (err, payloads) {});
 ```
-
-### getJoiValidator()
-Returns a Joi schema that can be passed in _opts.validations_ to
-*fh-rest-express-router* to prevent use of $where to prevent NoSQL injection.

@@ -17,7 +17,8 @@ var fhRestMongoAdapter = require('../lib/adapter');
 
 // Our MongoDB adapter for the "mobile_users" table
 var itemsMongoAdapter = fhRestMongoAdapter({
-  collection: 'items'
+  collection: 'items',
+  pk: 'owner'
 });
 
 // Expose the "mobile_users" table as "/users"
